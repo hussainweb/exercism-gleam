@@ -13,7 +13,7 @@ pub fn hey(remark: String) -> String {
   let nothing = str == ""
 
   case True {
-    _ if question && yelling == True -> "Calm down, I know what I'm doing!"
+    _ if question && yelling -> "Calm down, I know what I'm doing!"
     _ if yelling -> "Whoa, chill out!"
     _ if question -> "Sure."
     _ if nothing -> "Fine. Be that way!"
