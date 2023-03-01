@@ -15,8 +15,5 @@ pub fn difference(n: Int) -> Int {
 }
 
 fn summation(n: Int) -> Int {
-  case n {
-    1 -> 1
-    n -> n + summation(n - 1)
-  }
+  n * { n + 1 } / 2
 }
